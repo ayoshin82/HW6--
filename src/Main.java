@@ -41,6 +41,15 @@ public class Main {
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(i);
         }
+        {
+            System.out.println("Задача 8");
+        }
+        int money = 29000;
+        int total = 0;
+        for (int i = 0; i < 12; i = i+1) {
+            total = total + money;
+            System.out.println(total);
+        }
     }
 }
 
