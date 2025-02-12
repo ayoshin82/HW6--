@@ -46,7 +46,8 @@ public class Main {
         }
         int money = 29000;
         int total = 0;
-        for (int i = 0; i < 12; i = i+1) {
+        for (int i = 0; i < 12; i = i + 1) {
+            total = total + total/100;
             total = total + money;
             System.out.println(total);
         }
