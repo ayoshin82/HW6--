@@ -28,6 +28,12 @@ public class Main {
         for (int i = 1904; i <= 2096; i = i + 4) {
             System.out.println(i + "Является високосным");
         }
+        {
+            System.out.println("Задача 6");
+        }
+        for (int i = 7; i <= 98; i = i + 7) {
+            System.out.println(i);
+        }
     }
 }
 
