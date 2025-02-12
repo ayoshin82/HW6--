@@ -51,8 +51,14 @@ public class Main {
             total = total + money;
             System.out.println(total);
         }
+        {
+            System.out.println("Задача 9");
+        } for (int i=1; i<=10; i++){
+            System.out.println("2 x "+i+" = "+2*i);
+        }
     }
 }
+
 
 
 
